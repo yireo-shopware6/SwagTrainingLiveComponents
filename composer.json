@@ -1,0 +1,28 @@
+{
+  "name": "swag-training/shopware6-live-components",
+  "description": "Symfony Live Components in Shopware",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jisse Reitsma"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.4",
+    "symfony/ux-live-component": "^2.13"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\LiveComponents\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\LiveComponents\\SwagTrainingLiveComponents",
+    "copyright": "Jisse Reitsma",
+    "label": {
+      "en-GB": "SwagTrainingLiveComponents"
+    }
+  }
+}
